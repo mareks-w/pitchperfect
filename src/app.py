@@ -3,7 +3,7 @@ import streamlit as st
 import matplotlib.pyplot as plt
 from run_pitch_coaching import run_pitch_coaching
 
-st.title("🎤 PitchPerfect: ML Singing Coach")
+st.title(" PitchPerfect: ML Singing Coach")
 
 uploaded = st.file_uploader("Upload your singing (.wav)", type=["wav"])
 if uploaded:
